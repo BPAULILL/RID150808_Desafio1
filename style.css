@@ -1,0 +1,247 @@
+* {
+    margin: 0rem;
+    font-family: 'inter';
+}
+ /*
+#logo {
+    margin-left: 3.125rem;
+    margin-top: 3.125rem;
+}
+
+#título-menusuperior {
+    margin-left: 9.375rem;
+    margin-top: 3.125rem;
+}
+
+#texto-menusuperior {
+    margin-left: 9.375rem;
+    margin-top: 2.1875rem;
+    padding-bottom: 6.25rem;
+}
+*/
+#menusuperior {
+    background-color: #303030;
+    color: #303030;
+    padding: 10vw;
+}
+
+#titulomenusuperior {
+    font-family: 'inter';
+    color: #FFFFFF;
+    font-size: 3.75vw;
+    margin-left: -5vw;
+    margin-top: 3vw;
+    font-weight: 600;
+    letter-spacing: -0.025vw;
+    line-height: 4.5vw;
+}
+
+#subtitulomenusuperior {
+    font-family: 'inter';
+    color: #FFFFFF;
+    font-size: 1.25vw;
+    margin-left: -5vw;
+    font-weight: 5vw;
+    letter-spacing: 0;
+    margin-top: 1vw;
+    line-height: 1.75vw;
+}
+
+
+
+
+#menuinformacional {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    padding: 5vw;
+}
+
+.item{
+    font-size: 2vw;
+}
+
+.subitem{
+   font-size: 1vw;
+   font-weight: 400;
+}
+
+#secaoimagem{
+    display: flex;
+    justify-content: space-around;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    padding: 7vw;
+}
+
+#titulo{
+font-weight: 500;
+font-size: 2.45vw;
+}
+
+#subtitulo{
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+
+#formulário{
+    text-align: center;
+    color: #f9f9f9;
+    background-color: #303030;
+    padding: 4vw;
+}
+
+input[type="text"], input[type="email"] {
+  width: 100vw; /* Faz a caixa ocupar toda a largura da viewport */
+  max-width: 25vw; /* Define um limite para não ficar muito grande */
+  height: 2vw; /* Aumenta a altura da caixa */
+  padding: 0.7vw; /* Ajuste proporcional ao viewport */
+  border-radius: 1vw; /* Cantos arredondados proporcionais */
+  border: 0.1vw solid #ccc; /* Adiciona uma borda leve proporcional */
+  font-size: 1.3vw; /* Ajusta tamanho da fonte de forma responsiva */
+}
+
+button {
+    height: 4vw; /* Convertendo 2.5rem para viewport width */
+    width: 15vw; /* Convertendo 15.625rem para viewport width */
+    background-color:#C07212;
+    font-size: 1.5vw;
+    color: #eaece5;
+    border: 0vw;
+    border-radius: 1vw; /* Convertendo 0.3125rem */
+    margin-bottom: 2.17vw; /* Convertendo 3.125rem */
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+/*
+.icone {
+    margin: 1vw 0;
+    padding: 1vw;
+}
+
+.textoinformativo {
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo {
+    display: flex;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    columns: auto;
+}
+
+#titulovideo {
+    color: #247BA0;
+    margin-top: 3.125rem;
+    font-size: 2rem;
+    margin: 3.125rem 1.5625rem 3.125rem 6.25rem;
+    width: 40.625rem;
+}
+
+#textovideo {
+    font-size: 1rem;
+    margin: 3.125rem 1.5625rem 3.125rem 6.25rem;
+    margin-top: -3.125rem;
+    width: 40.625rem;
+}
+
+#video {
+    margin: 3.125rem 1.5625rem 3.125rem 6.25rem;
+    width: 40.625rem;
+    height: 17.6875rem;
+}
+
+#carrossel {
+    background-color: #247BA0;
+    padding: 3.125rem;
+}
+
+#titulo-carrossel {
+    color: white;
+    text-align: center;
+    font-size: 1.5625rem;
+}
+
+#div-cards {
+    margin-top: 1.5625rem;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card {
+    width: 27vw;
+}
+
+#setaesquerda {
+    display: none;
+}
+
+#Bruna {
+    display: none;
+}
+
+#Samantha{
+    margin-left: 15vw;
+}
+
+#Leonardo{
+    margin-left: 12vw;
+}
+
+.seta {
+    cursor: pointer;
+    margin-top: 1vh;
+    margin-left: 5vw;
+}
+
+.seta:hover {
+    transform: translateY(-0.4375rem);
+    transition-duration: 0.5s;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#tituloformulario {
+    margin: 1.5625rem;
+    color: #383838;
+    font-size: 2rem;
+}
+
+input {
+    background-color: #eaece5;
+    width: 18.75rem;
+    height: 2.5rem;
+    margin-top: 0.9375rem;
+    border: 0rem;
+    border-radius: 0.3125rem;
+    padding-left: 0.625rem;
+}
+
+button {
+    height: 2.5rem;
+    width: 15.625rem;
+    background-color: #247BA0;
+    color: #eaece5;
+    border: 0rem;
+    border-radius: 0.3125rem;
+    margin-bottom: 3.125rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-0.4375rem);
+    box-shadow: 0rem 0.9375rem 1.25rem #13171a;
+    transition-duration: 0.5s;
+}
