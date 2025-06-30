@@ -1,6 +1,6 @@
 # RID150808_Desafio1
 
-Landing page project.
+Landing page project:
 
 Site: https://dnc-brunolandingpage.netlify.app/
 
